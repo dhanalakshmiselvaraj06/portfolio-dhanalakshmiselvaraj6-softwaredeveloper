@@ -16,9 +16,10 @@ export default function Skills() {
             <li>JavaScript | ES6+</li>
             <li>TypeScript</li>
             <li>React</li>
-            <li>Angular 17+</li>
+            <li>Angular 11+</li>
             <li>Next.js</li>
             <li>Node.js</li>
+            <li>Express.js</li>
           </ul>
         </div>
 
@@ -28,13 +29,12 @@ export default function Skills() {
             <li>Redux</li>
             <li>React Hook Form</li>
             <li>REST API</li>
-            <li>React Query</li>
+            <li>Tanstack Query</li>
             <li>Jest</li>
             <li>Microsoft Azure</li>
             <li>Linux</li>
             <li>JIRA</li>
             <li>Git</li>
-            <li>GitHub</li>
           </ul>
         </div>
       </div>

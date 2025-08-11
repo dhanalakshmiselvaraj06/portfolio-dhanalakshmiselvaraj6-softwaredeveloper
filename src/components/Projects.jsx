@@ -48,28 +48,40 @@ const companyProjects = [
 
 const personalProjects = [
   {
-    title: "Shopping Cart in React",
+    title: "Shopping Cart in React with Tailwind CSS",
     date: "05/2025 – 06/2025",
-    url: "https://leafy-faun-44d8a3.netlify.app/",
+    url: "https://shoppingcart-react-tailwindcss.netlify.app/",
     tools: "React, Tailwind CSS, Framer Motion, Vite, Netlify",
     image: "/assets/react_project.jpg",
     points: [
-      "Built a fully responsive personal portfolio website using React and Tailwind.",
+      /* "Built a fully responsive personal portfolio website using React and Tailwind.",
       "Added smooth page transitions using Framer Motion.",
       "Deployed the site using Netlify with custom domain.",
-      "Implemented dark/light theme toggle with persistent state.",
+      "Implemented dark/light theme toggle with persistent state." */
     ],
   },
   {
-    title: "Shopping Cart in Angular",
+    title: "Shopping Cart in Angular with Angular Material",
     date: "06/2023 – 08/2023",
     url: "https://ngecommerce-app6.web.app/auth",
     tools: "React, Firebase Auth, Firestore, Chart.js, Tailwind CSS",
     image: "/assets/angular_project.jpg",
     points: [
-      "Created a personal finance tracker with budget insights and dynamic charts.",
+      /*   "Created a personal finance tracker with budget insights and dynamic charts.",
       "Used Firebase Auth for secure login and Firestore for data storage.",
-      "Added real-time budget updates and pie chart visualizations.",
+      "Added real-time budget updates and pie chart visualizations.", */
+    ],
+  },
+  {
+    title: "My Portfolio in React with Tailwind CSS",
+    date: "07/2025 – 08/2025",
+    url: "https://dhanalakshmiselvaraj06-myportfolio.netlify.app/",
+    tools: "React, Firebase Auth, Firestore, Chart.js, Tailwind CSS",
+    image: "/assets/portfolio_react.jpg",
+    points: [
+      /*   "Created a personal finance tracker with budget insights and dynamic charts.",
+      "Used Firebase Auth for secure login and Firestore for data storage.",
+      "Added real-time budget updates and pie chart visualizations.", */
     ],
   },
 ];
@@ -130,10 +142,12 @@ export default function Projects() {
                     <img
                       src={project.image}
                       alt={project.title}
-                      className="w-full h-full object-cover"
+                      className="w-full h-full object-contain bg-transparent"
                     />
                     <div className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-60 p-4">
-                      <h3 className="text-lg font-bold text-white">{project.title}</h3>
+                      <h3 className="text-lg font-bold text-white">
+                        {project.title}
+                      </h3>
                       <p className="text-sm text-gray-300">{project.date}</p>
                     </div>
                   </div>
@@ -141,7 +155,9 @@ export default function Projects() {
                   <div className="w-full h-full bg-indigo-600 rounded-xl p-6 flex flex-col justify-center items-center text-center">
                     <h3 className="text-xl font-bold mb-2">{project.title}</h3>
                     <p className="text-sm">{project.date}</p>
-                    <p className="mt-4 text-sm text-white opacity-70">Click to flip</p>
+                    <p className="mt-4 text-sm text-white opacity-70">
+                      Click to flip
+                    </p>
                   </div>
                 )}
               </div>

@@ -3,7 +3,7 @@ import { GithubIcon, LinkedinIcon } from './SvgIcons'
 
 export default function Contact() {
   return (
-   <section
+    <section
       id="contact"
       className="space-y-6 py-10 px-4 bg-white dark:bg-gray-900 transition-colors duration-300"
     >
@@ -11,37 +11,44 @@ export default function Contact() {
         Contact
       </h2>
 
-      <div className="flex text-lg font-semibold text-gray-600 dark:text-gray-400 items-center gap-3"> 
-        <MapPinIcon className="w-6 h-6 text-indigo-500" />
+      {/* Location */}
+      <div className="flex flex-wrap text-lg font-semibold text-gray-600 dark:text-gray-400 items-center gap-3">
+        <MapPinIcon className="w-6 h-6 text-indigo-500 flex-shrink-0" />
         <span>Frankfurt, Germany</span>
       </div>
 
-      <div className="flex text-lg font-semibold text-gray-600 dark:text-gray-400 items-center gap-3">
-        <EnvelopeIcon className="w-6 h-6 text-indigo-500" />
-        <a href="mailto:dhanalakshmi.selvaraj1103@gmail.com" className="hover:underline">
+      {/* Email */}
+      <div className="flex flex-wrap text-lg font-semibold text-gray-600 dark:text-gray-400 items-center gap-3">
+        <EnvelopeIcon className="w-6 h-6 text-indigo-500 flex-shrink-0" />
+        <a
+          href="mailto:dhanalakshmi.selvaraj1103@gmail.com"
+          className="hover:underline break-words"
+        >
           dhanalakshmi.selvaraj1103@gmail.com
         </a>
       </div>
 
-      <div className="flex text-lg font-semibold text-gray-600 dark:text-gray-400 items-center gap-3">
-        <LinkedinIcon className="w-6 h-6 text-indigo-500" />
+      {/* LinkedIn */}
+      <div className="flex flex-wrap text-lg font-semibold text-gray-600 dark:text-gray-400 items-center gap-3">
+        <LinkedinIcon className="w-6 h-6 text-indigo-500 flex-shrink-0" />
         <a
           href="https://linkedin.com/in/dhana-lakshmi-selvaraj"
           target="_blank"
           rel="noopener noreferrer"
-          className="hover:underline"
+          className="hover:underline break-words"
         >
           linkedin.com/in/dhana-lakshmi-selvaraj
         </a>
       </div>
 
-      <div className="flex text-lg font-semibold text-gray-600 dark:text-gray-400 items-center gap-3">
-        <GithubIcon className="w-6 h-6 text-indigo-500" />
+      {/* GitHub */}
+      <div className="flex flex-wrap text-lg font-semibold text-gray-600 dark:text-gray-400 items-center gap-3">
+        <GithubIcon className="w-6 h-6 text-indigo-500 flex-shrink-0" />
         <a
           href="https://github.com/dhanalakshmiselvaraj06?tab=repositories"
-          target="_blank"/* opens in a new tab  */
+          target="_blank"
           rel="noopener noreferrer"
-          className="hover:underline"
+          className="hover:underline break-words"
         >
           github.com/dhanalakshmiselvaraj06
         </a>
