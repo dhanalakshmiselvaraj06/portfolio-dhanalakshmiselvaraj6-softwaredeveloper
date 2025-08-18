@@ -64,8 +64,8 @@ export default function Experience() {
           </li>
           <li>
             Well versed in Agile methodologies, consistently delivering
-            proficiency in iterative development cycles, and adapting to evolving
-            client needs.
+            proficiency in iterative development cycles, and adapting to
+            evolving client needs.
           </li>
         </ul>
       </div>
@@ -85,28 +85,24 @@ export default function Experience() {
 
         <ul className="list-disc list-inside space-y-2 text-gray-800 dark:text-gray-300 leading-relaxed">
           <li>
-            Led the migration of a legacy vanilla JavaScript application to
-            React, implementing reusable components and improving frontend
-            architecture.
+            Developed user interfaces using Angular, TypeScript, and NgRx for
+            efficient state management and scalable applications.
           </li>
           <li>
-            Developed user interfaces using React, TypeScript, and Redux for
-            efficient state management and scalability.
+            Integrated Angular applications with RESTful APIs to ensure smooth
+            data flow between frontend and backend.
           </li>
           <li>
-            Integrated React-Redux applications with RESTful APIs to ensure
-            smooth data flow between frontend and backend.
+            Utilized RxJS and Angular Services for efficient data fetching,
+            reactive programming, and caching.
           </li>
           <li>
-            Utilized TanStack Query for efficient data fetching and caching.
+            Managed forms using Angular Reactive Forms for robust and flexible
+            form handling.
           </li>
           <li>
-            Managed forms using React Hook Form for robust and flexible form
-            handling.
-          </li>
-          <li>
-            Applied testing frameworks such as Jest and Playwright to ensure
-            code quality and reliability.
+            Applied testing frameworks such as Jest and Protractor / Cypress to
+            ensure code quality and reliability
           </li>
           <li>
             Experienced in setting up CI/CD pipelines using Azure Pipelines and

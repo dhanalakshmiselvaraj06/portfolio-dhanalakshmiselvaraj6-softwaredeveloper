@@ -6,6 +6,7 @@ import Experience from "./components/Experience";
 import Projects from "./components/Projects";
 import Academic from "./components/Academic";
 import Certifications from "./components/Certifications";
+import Award from "./components/Award";
 import Contacts from "./components/Contacts";
 
 import './App.css'
@@ -24,6 +25,7 @@ function App() {
         <Projects />
         <Academic />
         <Certifications />
+        <Award />
         <Contacts />
       </main>
     </div>

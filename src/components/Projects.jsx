@@ -3,35 +3,6 @@ import { useState } from "react";
 // === DATA ===
 const companyProjects = [
   {
-    title: "Statuslead",
-    date: "02/2021 – 06/2021",
-    tools:
-      "React, Redux, React Hook Form, Firebase, Jest, React Router, Context API, Git, VS Code, Azure Pipelines",
-    points: [
-      "Built and maintained frontend features using React with Redux and Context API.",
-      "Implemented role-based authentication using Firebase Auth and React Router.",
-      "Developed forms using React Hook Form for better performance.",
-      "Integrated file upload/download with Firebase Storage.",
-      "Created a change history tracking system for records.",
-      "Automated emails and secure tasks using Firebase Admin SDK.",
-      "Wrote unit tests with Jest.",
-      "Maintained CI/CD pipeline with Azure Pipelines.",
-    ],
-  },
-  {
-    title: "Event Manager",
-    date: "02/2021 – 06/2021",
-    tools:
-      "React, TypeScript, .NET (ASP.NET Core), SQL, RxJS, Git, VS Code, Visual Studio 2019, SSMS, Firebase, PayPal SDK",
-    points: [
-      "Built dynamic forms and data tables using React Hook Form.",
-      "Implemented JWT-based authentication with ASP.NET Identity.",
-      "Integrated PayPal SDK for secure payments.",
-      "Deployed app via Firebase Hosting.",
-      "Followed best practices in state management and responsive design.",
-    ],
-  },
-  {
     title: "Sandhills Center Management System",
     date: "08/2021 – 04/2022",
     tools:
@@ -44,27 +15,44 @@ const companyProjects = [
       "Created reusable UI components with state management.",
     ],
   },
+  {
+    title: "Statuslead",
+    date: "02/2021 – 06/2021",
+    tools:
+      "Angular, TypeScript, SQL, RxJS, Git, VS Code, Visual Studio 2019, Firebase",
+    points: [
+      "Implemented role-based authentication using Angular Router Guards and Firebase Auth.",
+      "Developed forms using Angular Reactive Forms for better performance and validation.",
+      "Integrated file upload/download functionality with Firebase Storage.",
+      "Integrated RxJS for reactive programming and state management.",
+      "Integrated RESTful APIs for data management and retrieval.",
+      "Utilized Firebase for backend services and real-time data synchronization.",
+      "Wrote unit tests with Jasmine and Karma.",
+      "Deployed the application on Firebase Hosting.",
+    ],
+  },
+  {
+    title: "Event Manager",
+    date: "02/2021 – 06/2021",
+    tools:
+      "Angular, ASP.NET, SQL, RxJS, Git, VS Code, Visual Studio 2019, SSMS, Firebase, PayPal",
+    points: [
+      "Implemented reactive dynamic forms and dynamic tables in Angular for flexible and responsive UI.",
+      "Developed role-based authorization using JWT and .NET Identity for secure access control.",
+      "Integrated PayPal SDK for secure payments.",
+      "Deployed app via Firebase Hosting.",
+      "Created interactive data visualizations with ngx-charts.",
+      "Followed best practices in state management and responsive design.",
+    ],
+  },
 ];
 
 const personalProjects = [
   {
-    title: "Shopping Cart in React with Tailwind CSS",
-    date: "05/2025 – 06/2025",
-    url: "https://shoppingcart-react-tailwindcss.netlify.app/",
-    tools: "React, Tailwind CSS, Framer Motion, Vite, Netlify",
-    image: "/assets/react_project.jpg",
-    points: [
-      /* "Built a fully responsive personal portfolio website using React and Tailwind.",
-      "Added smooth page transitions using Framer Motion.",
-      "Deployed the site using Netlify with custom domain.",
-      "Implemented dark/light theme toggle with persistent state." */
-    ],
-  },
-  {
     title: "Shopping Cart in Angular with Angular Material",
     date: "06/2023 – 08/2023",
     url: "https://ngecommerce-app6.web.app/auth",
-    tools: "React, Firebase Auth, Firestore, Chart.js, Tailwind CSS",
+    /* tools: "React, Firebase Auth, Firestore, Chart.js, Tailwind CSS", */
     image: "/assets/angular_project.jpg",
     points: [
       /*   "Created a personal finance tracker with budget insights and dynamic charts.",
@@ -73,10 +61,24 @@ const personalProjects = [
     ],
   },
   {
-    title: "My Portfolio in React with Tailwind CSS",
+    title: "Shopping Cart in React with Tailwind CSS",
+    date: "05/2025 – 06/2025",
+    url: "https://shoppingcart-react-tailwindcss.netlify.app/",
+    /* tools: "React, Tailwind CSS, Framer Motion, Vite, Netlify", */
+    image: "/assets/react_project.jpg",
+    points: [
+      /* "Built a fully responsive personal portfolio website using React and Tailwind.",
+      "Added smooth page transitions using Framer Motion.",
+      "Deployed the site using Netlify with custom domain.",
+      "Implemented dark/light theme toggle with persistent state." */
+    ],
+  },
+
+  {
+    title: "My Portfolio",
     date: "07/2025 – 08/2025",
     url: "https://dhanalakshmiselvaraj06-myportfolio.netlify.app/",
-    tools: "React, Firebase Auth, Firestore, Chart.js, Tailwind CSS",
+    /*   tools: "React, Firebase Auth, Firestore, Chart.js, Tailwind CSS", */
     image: "/assets/portfolio_react.jpg",
     points: [
       /*   "Created a personal finance tracker with budget insights and dynamic charts.",

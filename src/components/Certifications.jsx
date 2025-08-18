@@ -9,8 +9,7 @@ export default function Certifications() {
       </h2>
       <div>
         <h3 className="text-2xl font-bold text-gray-900 dark:text-white">
-          Developing Front End Apps with React Issued by IBM via edX – Verified
-          Certificate (2025)
+          Developing Front End Apps with React Issued by IBM(2025)
         </h3>
         {/* Company name, smaller but still a heading */}
         <h4 className="text-lg font-semibold text-gray-600 dark:text-gray-400">
@@ -20,12 +19,12 @@ export default function Certifications() {
       <div>
         <h3 className="text-2xl font-bold text-gray-900 dark:text-white">
           Back-end Application Development with Node.js and Express Issued by
-          IBM via edX – Verified Certificate (2025)
+          IBM(2025)
         </h3>
         {/* Company name, smaller but still a heading */}
-      {/*   <h4 className="text-lg font-semibold text-gray-600 dark:text-gray-400">
-          Certificate ID: UC-2dc69fe7-f2af-49d1- b204- feceaf10a493
-        </h4> */}
+        <h4 className="text-lg font-semibold text-gray-600 dark:text-gray-400">
+          Certificate ID: 0a08d47bc22c4aa1a96f5ea87a469c73
+        </h4>
       </div>
       <div>
         <h3 className="text-2xl font-bold text-gray-900 dark:text-white">
