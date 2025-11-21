@@ -12,34 +12,40 @@ export default function Skills() {
         {/* Left side */}
         <div className="w-full md:w-1/2 bg-gray-100 dark:bg-gray-800 p-4 rounded-lg shadow-sm transform transition duration-300 hover:scale-105">
           <ul className="list-disc list-inside text-gray-800 dark:text-gray-100 space-y-1">
-            <li>C and C++</li>
             <li>HTML5</li>
-            <li>CSS3/SASS</li>
-            <li>Tailwind CSS</li>
+            <li>Bootstrap</li>
             <li>JavaScript | ES6+</li>
-            <li>TypeScript</li>
-            <li>Angular 15+</li>
-            <li>RxJS</li>
-            <li>NgRx</li>
-            <li>React</li>
+            <li>Angular</li>
+            {/*  <li>NgRx</li> */}
+            {/*  <li>React</li> */}
             <li>Node.js</li>
+            <li>REST API</li>
+            <li>MongoDB</li>
+            <li>Linux</li>
+            <li>SQL | MySQL</li>
+            <li>GIT | CI/CD(Github Actions)</li>
           </ul>
         </div>
 
         {/* Right side */}
         <div className="w-full md:w-1/2 bg-gray-100 dark:bg-gray-800 p-4 rounded-lg shadow-sm transform transition duration-300 hover:scale-105">
           <ul className="list-disc list-inside text-gray-800 dark:text-gray-100 space-y-1">
+            <li>C | C++</li>
+            <li>CSS3/SASS</li>
+            <li>Tailwind CSS</li>
+            <li>TypeScript</li>
+            <li>RxJS | NgRx</li>
             <li>Angular Forms and Router</li>
             <li>Angular CLI</li>
             <li>Angular Material / CDK</li>
-            <li>React Hooks</li>
-            <li>REST API</li>
-            <li>MySQL</li>
+            {/* <li>React Hooks</li> */}
+
+            {/* <li>MySQL</li> */}
+
             <li>Jasmine and Karma</li>
             <li>Microsoft Azure</li>
-            <li>Linux</li>
+
             <li>JIRA</li>
-            <li>Git</li>
           </ul>
         </div>
       </div>

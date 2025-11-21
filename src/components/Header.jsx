@@ -45,7 +45,7 @@ export default function Header({ darkMode, setDarkMode }) {
       {/* Right side buttons (desktop) */}
       <div className="hidden md:flex items-center space-x-4">
         <a
-          href="CV/CV_FRONTEND_DEVELOPER_DHANALAKSHMISELVARAJ.pdf"
+          href="CV/CV_DhanaLakshmiSelvaraj.pdf"
           download
           className="px-4 py-2 border rounded hover:bg-gray-200 dark:hover:bg-gray-700"
         >
@@ -94,7 +94,7 @@ export default function Header({ darkMode, setDarkMode }) {
             ))}
 
             <a
-              href="CV/DhanalakshmiSelvaraj_CV.pdf"
+              href="CV/CV_DhanaLakshmiSelvaraj.pdf"
               download
               className="px-4 py-2 border rounded hover:bg-gray-200 dark:hover:bg-gray-700"
               onClick={() => setMenuOpen(false)}

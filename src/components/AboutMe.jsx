@@ -15,7 +15,7 @@ export default function AboutMe() {
         intuitive, user-centric applications. Known for strong problem-solving
         skills, adaptability, and a continuous learning mindset. Collaborative,
         self-motivated, and organized, with a proven track record of delivering
-        high-quality solutions in team-driven environments.
+        high-quality solutions in team-driven environments.Currently upskilling in DevOps tools including Docker and Jenkins to strengthen cloud-native development skills.
       </p>
     </section>
   );
